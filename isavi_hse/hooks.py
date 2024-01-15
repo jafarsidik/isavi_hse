@@ -1,5 +1,5 @@
 app_name = "isavi_hse"
-app_title = "ISAVI HSE"
+app_title = "Isavi Hse"
 app_publisher = "jafar sidik"
 app_description = "HSE"
 app_email = "jeff.sidik@gmail.com"
