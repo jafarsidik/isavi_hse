@@ -1,0 +1,27 @@
+{% extends "templates/web.html" %}
+
+
+{% block script %}
+<!-- <script src="assets/js/moment-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+<script src="monitoring/index.js"></script>
+<style>
+ 
+
+#map {
+  position: absolute;
+  top: 7%;
+  bottom: 0;
+  width: 80%;
+  height: 55%;
+}
+</style>
+{% endblock %}
+
+{% block page_content %}
+    <div id="map" class="map"></div>
+
+{% endblock %}
+
+

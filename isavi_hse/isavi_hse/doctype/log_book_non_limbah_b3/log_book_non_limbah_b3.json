@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-15 23:58:35.613182",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "masuknya_limbah_b3_ke_tps_section",
+  "jenis_limbah_b3_masuk",
+  "tanggal_masuk_limbah_b3",
+  "vendor",
+  "column_break_xnkq",
+  "section_break_wjnn",
+  "satuan_jumlah_limbah_dihasilkan",
+  "jumlah_limbah_dihasilkan",
+  "jumlah_limbah_dikelola_sendiri",
+  "jumlah_limbah_oleh_pemanfaatan_langsung",
+  "jumlah_digunakan_untuk_kajian__uji_coba",
+  "jumlah_sisa_limbah_di_tps",
+  "column_break_kggf",
+  "jumlah_penimbunan",
+  "pemanfaatan"
+ ],
+ "fields": [
+  {
+   "fieldname": "masuknya_limbah_b3_ke_tps_section",
+   "fieldtype": "Section Break",
+   "label": "Masuknya Limbah B3 Ke TPS"
+  },
+  {
+   "fieldname": "jenis_limbah_b3_masuk",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Jenis Limbah B3 Masuk",
+   "options": "Jenis Limbah B3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xnkq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tanggal_masuk_limbah_b3",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal Masuk Limbah B3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor",
+   "options": "Vendor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_wjnn",
+   "fieldtype": "Section Break",
+   "label": "Data Tonase Non Limbah B3"
+  },
+  {
+   "fieldname": "satuan_jumlah_limbah_dihasilkan",
+   "fieldtype": "Link",
+   "label": "Satuan Jumlah Limbah Dihasilkan",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_limbah_dihasilkan",
+   "fieldtype": "Float",
+   "label": "Jumlah Limbah Dihasilkan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_limbah_dikelola_sendiri",
+   "fieldtype": "Float",
+   "label": "Jumlah Limbah Dikelola Sendiri"
+  },
+  {
+   "fieldname": "jumlah_limbah_oleh_pemanfaatan_langsung",
+   "fieldtype": "Float",
+   "label": "Jumlah Limbah Oleh Pemanfaatan Langsung"
+  },
+  {
+   "fieldname": "column_break_kggf",
+   "fieldtype": "Column Break",
+   "label": "Limbah diserhkan pihak ketiga"
+  },
+  {
+   "fieldname": "jumlah_penimbunan",
+   "fieldtype": "Float",
+   "label": "Jumlah Penimbunan"
+  },
+  {
+   "fieldname": "pemanfaatan",
+   "fieldtype": "Table",
+   "label": "Pemanfaatan",
+   "options": "Child Pemanfaatan Limbah Non B3"
+  },
+  {
+   "fieldname": "jumlah_digunakan_untuk_kajian__uji_coba",
+   "fieldtype": "Float",
+   "label": "Jumlah Digunakan Untuk Kajian / Uji Coba"
+  },
+  {
+   "fieldname": "jumlah_sisa_limbah_di_tps",
+   "fieldtype": "Float",
+   "label": "Jumlah Sisa Limbah (Di TPS)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 01:03:37.227955",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Log Book Non Limbah B3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

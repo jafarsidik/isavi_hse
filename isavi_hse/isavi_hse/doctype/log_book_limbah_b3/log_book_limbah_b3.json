@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-15 23:47:46.525088",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "masuknya_limbah_b3_ke_tps_column",
+  "jenis_limbah",
+  "tanggal_masuk",
+  "sumber",
+  "jumlah_dalam_drum",
+  "jumlah_dalam_ton",
+  "tanggal_maximal_penyimpanan",
+  "keluarnya_limbah_b3_ke_tps_column",
+  "tanggal_keluar",
+  "jumlah_drum",
+  "jumlah_ton",
+  "tujuan_penyerahan",
+  "no_dokumen"
+ ],
+ "fields": [
+  {
+   "fieldname": "masuknya_limbah_b3_ke_tps_column",
+   "fieldtype": "Column Break",
+   "label": "Masuknya Limbah B3 Ke TPS"
+  },
+  {
+   "fieldname": "jenis_limbah",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Jenis Limbah",
+   "options": "Jenis Limbah B3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tanggal_masuk",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal Masuk",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sumber",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sumber",
+   "options": "Sumber Limbah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_dalam_drum",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Jumlah Dalam (Drum)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_dalam_ton",
+   "fieldtype": "Float",
+   "label": "Jumlah Dalam (Ton)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tanggal_maximal_penyimpanan",
+   "fieldtype": "Date",
+   "label": "Tanggal Maximal Penyimpanan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "keluarnya_limbah_b3_ke_tps_column",
+   "fieldtype": "Column Break",
+   "label": "Keluarnya Limbah B3 Ke TPS"
+  },
+  {
+   "fieldname": "tanggal_keluar",
+   "fieldtype": "Date",
+   "label": "Tanggal Keluar"
+  },
+  {
+   "fieldname": "jumlah_drum",
+   "fieldtype": "Float",
+   "label": "Jumlah (Drum)"
+  },
+  {
+   "fieldname": "jumlah_ton",
+   "fieldtype": "Float",
+   "label": "Jumlah (Ton)"
+  },
+  {
+   "fieldname": "tujuan_penyerahan",
+   "fieldtype": "Link",
+   "label": "Tujuan Penyerahan",
+   "options": "Vendor"
+  },
+  {
+   "fieldname": "no_dokumen",
+   "fieldtype": "Data",
+   "label": "No Dokumen"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 00:06:30.870809",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Log Book Limbah B3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
