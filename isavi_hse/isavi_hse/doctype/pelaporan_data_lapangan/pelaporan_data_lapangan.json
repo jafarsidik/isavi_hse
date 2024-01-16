@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2024-01-16 13:19:48.647229",
  "doctype": "DocType",
@@ -63,7 +64,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-16 14:22:55.125643",
+ "modified": "2024-01-16 15:12:52.605413",
  "modified_by": "Administrator",
  "module": "Isavi Hse",
  "name": "Pelaporan Data Lapangan",

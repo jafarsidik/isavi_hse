@@ -1,0 +1,209 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 16:06:12.275642",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_tab",
+  "event_type",
+  "workgroup",
+  "reported_by",
+  "reported_to",
+  "date_time_event",
+  "date_time_reported",
+  "column_break_vesb",
+  "section_break_mzkx",
+  "description_of_event",
+  "describe_the_event_in_sufficient_detail",
+  "immediate_taken_action",
+  "revised_risk_assesment_section",
+  "actual_outcome",
+  "potential_consequence",
+  "potential_likelihood",
+  "column_break_lyck",
+  "heatmap",
+  "investigations_tab",
+  "team_lead",
+  "start_date",
+  "close_date",
+  "sequence_of_eventincident",
+  "findings",
+  "management_menthod",
+  "key_learning"
+ ],
+ "fields": [
+  {
+   "fieldname": "event_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Event Type",
+   "options": "Event Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workgroup",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Workgroup",
+   "options": "Employee Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reported_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reported By",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reported_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reported To",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_time_event",
+   "fieldtype": "Datetime",
+   "label": "Date Time Event",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_time_reported",
+   "fieldtype": "Datetime",
+   "label": "Date Time Reported"
+  },
+  {
+   "fieldname": "column_break_vesb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mzkx",
+   "fieldtype": "Section Break",
+   "label": "Event/Incident Detail"
+  },
+  {
+   "fieldname": "description_of_event",
+   "fieldtype": "Small Text",
+   "label": "Description of Event",
+   "reqd": 1
+  },
+  {
+   "fieldname": "describe_the_event_in_sufficient_detail",
+   "fieldtype": "Text Editor",
+   "label": "Describe the Event in Sufficient Detail",
+   "reqd": 1
+  },
+  {
+   "fieldname": "immediate_taken_action",
+   "fieldtype": "Text Editor",
+   "label": "Immediate taken Action ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "revised_risk_assesment_section",
+   "fieldtype": "Section Break",
+   "label": "Revised Risk Assesment"
+  },
+  {
+   "fieldname": "actual_outcome",
+   "fieldtype": "Select",
+   "label": "Actual Outcome",
+   "options": "1 - Insignificant\n2 - Minor\n3 - Moderate\n4 - Major\n5 - Catstrophic"
+  },
+  {
+   "fieldname": "potential_consequence",
+   "fieldtype": "Select",
+   "label": "Potential Consequence",
+   "options": "1 - Insignificant\n2 - Minor\n3 - Moderate\n4 - Major\n5 - Catstrophic"
+  },
+  {
+   "fieldname": "potential_likelihood",
+   "fieldtype": "Select",
+   "label": "Potential Likelihood",
+   "options": "A - Almost Certain\nB - Likely\nC - Possible\nD - Unlikely\nE - Rare"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details "
+  },
+  {
+   "fieldname": "investigations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Investigations"
+  },
+  {
+   "fieldname": "team_lead",
+   "fieldtype": "Link",
+   "label": "Team Lead",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "close_date",
+   "fieldtype": "Date",
+   "label": "Close Date"
+  },
+  {
+   "fieldname": "sequence_of_eventincident",
+   "fieldtype": "Small Text",
+   "label": "Sequence of Event/Incident"
+  },
+  {
+   "fieldname": "findings",
+   "fieldtype": "Small Text",
+   "label": "Findings"
+  },
+  {
+   "fieldname": "management_menthod",
+   "fieldtype": "Small Text",
+   "label": "Management Menthod"
+  },
+  {
+   "fieldname": "key_learning",
+   "fieldtype": "Small Text",
+   "label": "Key Learning"
+  },
+  {
+   "fieldname": "column_break_lyck",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heatmap",
+   "fieldtype": "HTML",
+   "label": "Heatmap"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 16:42:29.260286",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Incident",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
