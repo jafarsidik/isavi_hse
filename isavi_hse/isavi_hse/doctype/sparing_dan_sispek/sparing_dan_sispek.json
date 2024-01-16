@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 14:26:27.192735",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "device",
+  "date_install",
+  "koordinat",
+  "interval",
+  "data_sensor_column",
+  "timestamp",
+  "ph",
+  "tss",
+  "level",
+  "temprature"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "device",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Device",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_install",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Install",
+   "reqd": 1
+  },
+  {
+   "fieldname": "koordinat",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lokasi Koordinat",
+   "options": "Lokasi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "interval",
+   "fieldtype": "Select",
+   "label": "Interval",
+   "options": "\nHourly\nDaily\nMonthly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_sensor_column",
+   "fieldtype": "Column Break",
+   "label": "Data Sensor"
+  },
+  {
+   "fieldname": "timestamp",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Timestamp",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ph",
+   "fieldtype": "Float",
+   "label": "pH"
+  },
+  {
+   "fieldname": "tss",
+   "fieldtype": "Float",
+   "label": "TSS"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Float",
+   "label": "Level"
+  },
+  {
+   "fieldname": "temprature",
+   "fieldtype": "Float",
+   "label": "Temprature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 14:32:39.544831",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Sparing dan Sispek",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 13:19:48.647229",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lokasi",
+  "tipe",
+  "sampling_date",
+  "column_break_bvnx",
+  "regulasi",
+  "paremater_section",
+  "table_atqn"
+ ],
+ "fields": [
+  {
+   "fieldname": "lokasi",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lokasi",
+   "options": "Lokasi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tipe",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Analisa Tipe Data",
+   "options": "\nAnalisa Kualitas Air Laut\nAnalisa Kualitas Air Danau\nAnalisa Limbah Cair\nAnalisa Kualitas Udara Ambien\nAnalisa Emisi\nAnalisa Data Ekologi\nAnalisa Data Flora & Fauna\nAnalisa Data Sedimen\nAnalisa Data Hidrologi dan Meterologi\nAnalisa Data Reklamasi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bvnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "regulasi",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Regulasi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "paremater_section",
+   "fieldtype": "Section Break",
+   "label": "Paremater"
+  },
+  {
+   "fieldname": "table_atqn",
+   "fieldtype": "Table",
+   "options": "Parameter Hasil Analisa Kualitas"
+  },
+  {
+   "fieldname": "sampling_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sampling Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 14:22:55.125643",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Pelaporan Data Lapangan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

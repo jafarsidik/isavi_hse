@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 13:24:37.630757",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lokasi",
+  "kode",
+  "column_break_thrh",
+  "latitude",
+  "langitude"
+ ],
+ "fields": [
+  {
+   "fieldname": "lokasi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lokasi",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Latitude"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "langitude",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Longitude"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "kode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Kode",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_thrh",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 14:12:43.928946",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Lokasi",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "lokasi,kode",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "lokasi"
+}

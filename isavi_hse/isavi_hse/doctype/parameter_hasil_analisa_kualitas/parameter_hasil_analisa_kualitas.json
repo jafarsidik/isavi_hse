@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 13:41:57.511356",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "group_parameter",
+  "parameter",
+  "column_break_wepz",
+  "uom",
+  "grl",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "group_parameter",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Group Parameter",
+   "options": "Group Parameter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "parameter",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Parameter",
+   "options": "Parameter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wepz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "grl",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GRL"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Result"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-16 14:20:17.115910",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "Parameter Hasil Analisa Kualitas",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
