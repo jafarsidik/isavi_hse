@@ -1,0 +1,189 @@
+{
+ "charts": [
+  {
+   "chart_name": "Incident",
+   "label": "Incident"
+  }
+ ],
+ "content": "[{\"id\":\"MTBYLYDZec\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcut</b></span>\",\"col\":12}},{\"id\":\"_kPEKWF41j\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident\",\"col\":12}},{\"id\":\"WY6ebtNuh3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitoring\",\"col\":3}},{\"id\":\"pT1zSS7Vgt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A1RTahrCKS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b><b></b></span>\",\"col\":12}},{\"id\":\"TTPGP4nx7g\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}},{\"id\":\"hluFsRTVVI\",\"type\":\"card\",\"data\":{\"card_name\":\"Event\",\"col\":4}}]",
+ "creation": "2024-01-16 13:05:33.617578",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "quality",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "HSE",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Event",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Incident",
+   "link_count": 0,
+   "link_to": "Incident",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Log Book Limbah B3",
+   "link_count": 0,
+   "link_to": "Log Book Limbah B3",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Log Book Non Limbah B3",
+   "link_count": 0,
+   "link_to": "Log Book Non Limbah B3",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pelaporan Data Lapangan",
+   "link_count": 0,
+   "link_to": "Pelaporan Data Lapangan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sparing dan Sispek",
+   "link_count": 0,
+   "link_to": "Sparing dan Sispek",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registrasi Izin",
+   "link_count": 0,
+   "link_to": "Registrasi Izin",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Arsip File",
+   "link_count": 0,
+   "link_to": "File",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vendor",
+   "link_count": 0,
+   "link_to": "Vendor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Location",
+   "link_count": 0,
+   "link_to": "Lokasi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Group Parameter",
+   "link_count": 0,
+   "link_to": "Group Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Parameter",
+   "link_count": 0,
+   "link_to": "Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sumber Limbah",
+   "link_count": 0,
+   "link_to": "Sumber Limbah",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Jenis Limbah",
+   "link_count": 0,
+   "link_to": "Jenis Limbah B3",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-19 11:28:59.680713",
+ "modified_by": "Administrator",
+ "module": "Isavi Hse",
+ "name": "HSE",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monitoring",
+   "link_to": "Monitoring",
+   "type": "DocType"
+  }
+ ],
+ "title": "HSE"
+}
