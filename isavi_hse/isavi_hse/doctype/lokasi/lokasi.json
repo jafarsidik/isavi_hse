@@ -7,6 +7,7 @@
  "field_order": [
   "lokasi",
   "kode",
+  "color",
   "column_break_thrh",
   "latitude",
   "langitude"
@@ -28,13 +29,6 @@
   },
   {
    "allow_in_quick_entry": 1,
-   "fieldname": "langitude",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Longitude"
-  },
-  {
-   "allow_in_quick_entry": 1,
    "fieldname": "kode",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -44,11 +38,25 @@
   {
    "fieldname": "column_break_thrh",
    "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "langitude",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Longitude"
+  },
+  {
+   "default": "red",
+   "fieldname": "color",
+   "fieldtype": "Select",
+   "label": "Color",
+   "options": "\nblack\nblue\ngold\ngreen\ngrey\norange\nred\nviolet\nyellow"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-16 14:12:43.928946",
+ "modified": "2024-01-21 14:43:59.339910",
  "modified_by": "Administrator",
  "module": "Isavi Hse",
  "name": "Lokasi",

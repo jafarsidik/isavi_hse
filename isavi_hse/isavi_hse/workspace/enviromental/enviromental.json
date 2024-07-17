@@ -5,7 +5,7 @@
    "label": "Incident"
   }
  ],
- "content": "[{\"id\":\"MTBYLYDZec\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcut</b></span>\",\"col\":12}},{\"id\":\"_kPEKWF41j\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident\",\"col\":12}},{\"id\":\"WY6ebtNuh3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitoring\",\"col\":3}},{\"id\":\"pT1zSS7Vgt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A1RTahrCKS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b><b></b></span>\",\"col\":12}},{\"id\":\"TTPGP4nx7g\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}},{\"id\":\"hluFsRTVVI\",\"type\":\"card\",\"data\":{\"card_name\":\"Event\",\"col\":4}}]",
+ "content": "[{\"id\":\"MTBYLYDZec\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Environmental</b></span>\",\"col\":12}},{\"id\":\"_kPEKWF41j\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident\",\"col\":12}},{\"id\":\"WY6ebtNuh3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitoring\",\"col\":3}},{\"id\":\"UXFBuEhweG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"pT1zSS7Vgt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A1RTahrCKS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b><b></b></span>\",\"col\":12}},{\"id\":\"TTPGP4nx7g\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}},{\"id\":\"hluFsRTVVI\",\"type\":\"card\",\"data\":{\"card_name\":\"Event\",\"col\":4}},{\"id\":\"cOXMhpc5t9\",\"type\":\"card\",\"data\":{\"card_name\":\"Reklamasi\",\"col\":4}}]",
  "creation": "2024-01-16 13:05:33.617578",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,10 +13,10 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "quality",
- "idx": 0,
+ "idx": 1,
  "indicator_color": "",
  "is_hidden": 0,
- "label": "HSE",
+ "label": "Enviromental",
  "links": [
   {
    "hidden": 0,
@@ -163,12 +163,50 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reklamasi",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project",
+   "link_count": 0,
+   "link_to": "Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Task",
+   "link_count": 0,
+   "link_to": "Task",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Type",
+   "link_count": 0,
+   "link_to": "Project Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-01-19 11:28:59.680713",
- "modified_by": "Administrator",
+ "modified": "2024-01-27 20:45:19.195838",
+ "modified_by": "desferidian@isavi-tu.com",
  "module": "Isavi Hse",
- "name": "HSE",
+ "name": "Enviromental",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -183,7 +221,14 @@
    "label": "Monitoring",
    "link_to": "Monitoring",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Dashboard",
+   "link_to": "Enviromental",
+   "type": "Dashboard"
   }
  ],
- "title": "HSE"
+ "title": "Enviromental"
 }

@@ -1,6 +1,6 @@
 // Copyright (c) 2024, jafar sidik and contributors
 // For license information, please see license.txt
-
+/*
 frappe.ui.form.on("Monitoring", {
 	refresh(frm) {
 		let map = frm.get_field('map').map
@@ -14,3 +14,4 @@ frappe.ui.form.on("Monitoring", {
 		.bindPopup('Lokasi K3');
  	},
 });
+*/
